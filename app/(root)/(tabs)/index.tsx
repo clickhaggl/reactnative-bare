@@ -10,8 +10,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Link href="/sign-in" style={{fontSize: 20}}>Sign In</Link>
-      
+      <Text style={{fontStyle: "italic", fontWeight: "800"}}>Welcome to React Native Hmm</Text>
+      <Link href="/sign-in">Sign In</Link>
       <Link href="/profile">Profile</Link>
       <Link href="/explore">Explore</Link>
       <Link href="/properties/1">Properties</Link>
